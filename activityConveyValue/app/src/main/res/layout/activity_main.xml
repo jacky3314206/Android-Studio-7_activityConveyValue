@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#B8D19A"
+        android:background="#B0EA6A"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:text="@string/pageA"
-        android:textColor="#000000"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,7 +34,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="160dp"
         android:text="@string/input"
-        android:textColor="#000000"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -46,7 +46,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="220dp"
         android:text="@string/pageBInput"
-        android:textColor="#000000"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -83,9 +83,10 @@
         android:layout_width="130sp"
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
+        android:background="#FFFFFF"
         android:onClick="clickAtoB"
         android:text="@string/pageAtoB"
-        android:textColor="#000000"
+        android:textColor="#3F51B5"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
