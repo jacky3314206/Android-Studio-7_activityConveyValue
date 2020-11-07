@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         EditText edit_A = (EditText)findViewById(R.id.editV1);
 
-        Intent intent = new Intent(this, SecondActivity.class);
+        Intent intent = new Intent(this, MainActivity2.class);
         Bundle bundle = new Bundle();
         bundle.putString("T", edit_A.getText().toString());
         intent.putExtras(bundle);
